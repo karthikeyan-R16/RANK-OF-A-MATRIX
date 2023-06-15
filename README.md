@@ -19,15 +19,18 @@ Print the result and end the program
 
 Program:
 ```
-#Developed by: KARTHIKEYAN R
+#Program to find the rank of a matrix.
+#Developed by: Karthikeyan R
 #RegisterNumber: 212222240045
 import numpy as np
-A=np.array([[1,2,3],[3,6,9]])
-Rank=np.linalg.matrix_rank(A)
-print(Rank)
+matrix=np.array([[3,2,5],[1,1,2],[3,3,6]])
+s=np.linalg.matrix_rank(matrix)
+print(s)
 ```
 ## output
-![maths ex2,1](https://github.com/karthikeyan-R16/RANK-OF-A-MATRIX/assets/119421232/1a624fd9-c953-44a5-9abd-f9c3fcf39a28)
+
+![image](https://github.com/karthikeyan-R16/RANK-OF-A-MATRIX/assets/119421232/86f4ede9-a160-4806-b3be-4413df0ef650)
+
 
 ## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
